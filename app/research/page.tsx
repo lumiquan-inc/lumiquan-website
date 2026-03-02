@@ -217,11 +217,11 @@ export default function ResearchPage() {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                Research
+                Resources
               </span>
             </h1>
             <p className="mt-6 max-w-3xl font-sans text-base leading-relaxed text-[#c6ccd6] md:text-lg">
-              Publications and research relevant to LumiQuan's mission.
+              Publications relevant to LumiQuan's mission.
             </p>
           </motion.div>
 

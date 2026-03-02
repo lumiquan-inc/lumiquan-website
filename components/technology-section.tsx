@@ -34,14 +34,13 @@ export function TechnologySection() {
           >
             <p className="font-sans text-base leading-relaxed text-[#b8bfca]">
               LumiQuan Inc. is commercializing large-format superconducting single-photon detector 
-              (SSPD) arrays through 300mm-wafer foundry processes. Our platform enables quantum computing, 
+              (SSPD) arrays through 300mm-wafer compatible processes. Our platform enables quantum computing, 
               quantum networking, remote sensing, low dose and time-resolved imaging applications at unprecedented scale.
             </p>
             <p className="mt-6 font-sans text-base leading-relaxed text-[#b8bfca]">
-              This vision of{" "}
+              Our mission: {" "}
               <span className="font-semibold text-[#f0f0f0]">
-                delivering affordable and quantum-grade photon detection at commercial scale has
-                been our mission from day one.
+                delivering affordable and quantum-grade photon detection at commercial scale
               </span>
             </p>
           </motion.div>

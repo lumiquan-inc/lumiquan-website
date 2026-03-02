@@ -11,7 +11,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Team", href: "/team" },
-  { label: "Research", href: "/research" },
+  { label: "Resources", href: "/research" },
 ]
 
 export function Navigation() {

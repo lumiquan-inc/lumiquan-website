@@ -42,7 +42,7 @@ export function HeroSection() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            at Foundry Scale
+            at Scale
           </span>
         </motion.h1>
 
@@ -53,7 +53,8 @@ export function HeroSection() {
           transition={{ delay: 0.25, duration: 0.4, ease: "easeOut" }}
           className="mx-auto mt-6 max-w-2xl font-sans text-base leading-relaxed text-[#c6ccd6] sm:text-lg md:text-xl"
         >
-          Affordable single photon detectors and imagers for next generation quantum computing and low-light sensing
+          Single photon detectors and imagers for scalable quantum computing and low-light sensing
+      
         </motion.p>
 
         {/* CTA Buttons */}
