@@ -16,6 +16,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'LumiQuan | Quantum Sensing at Foundry Scale',
   description: 'Affordable single photon detectors and imagers for next generation quantum computing and low-light sensing',
+  icons: {
+    icon: '/lumiquan-logo.png',
+    shortcut: '/lumiquan-logo.png',
+    apple: '/lumiquan-logo.png',
+  },
 }
 
 export const viewport: Viewport = {

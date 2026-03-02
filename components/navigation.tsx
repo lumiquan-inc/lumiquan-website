@@ -1,7 +1,8 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -14,28 +15,25 @@ const navLinks = [
 ]
 
 export function Navigation() {
-  const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
 
   return (
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.35, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-[#0a0a0a]/90 backdrop-blur-md border-b border-[#222222]"
-          : "bg-transparent"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 border-b border-[#222222] bg-[#0a0a0a] transition-all duration-300"
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/lumiquan-dark-logo.png"
+            alt="LumiQuan logo"
+            width={28}
+            height={28}
+            className="h-7 w-7 rounded-sm object-cover"
+            priority
+          />
           <span className="font-sans text-lg font-semibold tracking-widest text-[#f0f0f0] uppercase">
             LumiQuan
           </span>

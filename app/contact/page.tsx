@@ -22,10 +22,7 @@ export default function ContactPage() {
                 General
               </h2>
               <p className="mt-4 font-sans text-sm text-[#b8bfca]">
-                Email: contact@placeholder.com
-              </p>
-              <p className="mt-2 font-sans text-sm text-[#b8bfca]">
-                Phone: +1 (000) 000-0000
+                Email: info@lumiquan.com
               </p>
             </article>
           </div>
