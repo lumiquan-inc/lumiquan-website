@@ -15,7 +15,7 @@ const teamMembers = [
     focus: [],
   },
   {
-    name: "Satyavolu “Papa” Rao",
+    name: "Satyavolu Papa Rao",
     title: "Co-Founder",
     affiliation: "NY CREATES",
     image: "/team/papa-rao.jpg",
@@ -36,11 +36,21 @@ const teamMembers = [
     name: "Stefan Bogdanovic",
     title: "Advisor",
     affiliation: "",
-    image: "/team/stefan-bogdanovic.jpeg",
+    image: "/team/stefan-bogdanovic.jpg",
     imageClassName: "object-center",
     bio: "Leader and deep technical expert in the field of Applied Quantum Technology. Founded and led several projects and teams across academia (TU Delft, Harvard), large companies (Alphabet) and startups (SandboxAQ) to develop and commercialize quantum technologies for solving real-world problems.",
     focus: [],
   },
+  {
+    name: "Paul Kassebaum",
+    title: "Advisor",
+    affiliation: "",
+    image: "/team/paul-kassebaum.jpg",
+    imageClassName: "object-center",
+    bio: "Physicist and Head of Public Sector at Alice & Bob, advising on government strategy, partnerships, and commercialization pathways for scalable quantum technologies.",
+    focus: [],
+  },
+  
 ]
 
 export default function TeamPage() {

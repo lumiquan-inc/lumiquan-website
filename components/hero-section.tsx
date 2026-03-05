@@ -24,6 +24,16 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center px-6 text-center">
+
+        {/* LumiQuan Logo */}
+        <motion.img
+        src="/lumiquan_logo_transparent.png"
+        alt="LumiQuan Logo"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.4, ease: "easeOut" }}
+        className="mb-8 w-28 sm:w-32 md:w-36 lg:w-40"
+/>
         {/* Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 28 }}
@@ -53,7 +63,8 @@ export function HeroSection() {
           transition={{ delay: 0.25, duration: 0.4, ease: "easeOut" }}
           className="mx-auto mt-6 max-w-2xl font-sans text-base leading-relaxed text-[#c6ccd6] sm:text-lg md:text-xl"
         >
-          Single photon detectors and imagers for scalable quantum computing and low-light sensing
+          Single photon detector arrays and imagers for scalable quantum computing and ultralow-light sensing
+
       
         </motion.p>
 
