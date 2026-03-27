@@ -35,27 +35,27 @@ export function HeroSection() {
         className="mb-8 w-28 sm:w-32 md:w-36 lg:w-40"
 />
         {/* Headline */}
-        <motion.h1
-          initial={{ opacity: 0, y: 28 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.15, duration: 0.4, ease: "easeOut" }}
-          className="font-sans leading-[1.1] tracking-tight text-balance"
-        >
-          <span className="block text-5xl font-extrabold text-[#f0f0f0] sm:text-6xl md:text-7xl lg:text-[5.5rem]">
-            Quantum Sensing
-          </span>
-          <span
-            className="mt-2 block pb-1 text-4xl font-light sm:text-5xl md:text-6xl lg:text-[4.5rem]"
-            style={{
-              background: "linear-gradient(135deg, #00f2ff 0%, #1e40af 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
-            at Scale
-          </span>
-        </motion.h1>
+<motion.h1
+  initial={{ opacity: 0, y: 28 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.15, duration: 0.4, ease: "easeOut" }}
+  className="font-sans leading-[1.1] tracking-tight text-balance"
+>
+  <span className="block text-5xl font-extrabold text-[#f0f0f0] sm:text-6xl md:text-7xl lg:text-[5.5rem]">
+    Quantum Sensing
+  </span>
 
+  <span
+    className="mt-2 block pb-1 text-4xl font-light sm:text-5xl md:text-6xl lg:text-[4.5rem]"
+    style={{
+      background: "linear-gradient(135deg, #00f2ff 0%, #1e40af 100%)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+    }}
+  >
+    at Scale
+  </span>
+</motion.h1>
         {/* Sub-headline */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -63,7 +63,7 @@ export function HeroSection() {
           transition={{ delay: 0.25, duration: 0.4, ease: "easeOut" }}
           className="mx-auto mt-6 max-w-2xl font-sans text-base leading-relaxed text-[#c6ccd6] sm:text-lg md:text-xl"
         >
-          Single photon detector arrays and imagers for scalable quantum computing and ultralow-light sensing
+          Superconducting single photon cameras for scalable quantum computing, secure communication, and ultralow-light sensing
 
       
         </motion.p>
